@@ -1,0 +1,25 @@
+{
+  "name": "secura",
+  "version": "1.0.0",
+  "description": "A website to scan vulnerabilities and simulate attake on website",
+  "main": "index.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "cybersecurity",
+    "offencivesecurity",
+    "webattack"
+  ],
+  "author": "manasa",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "node-nmap": "^4.0.0"
+  }
+
+}
